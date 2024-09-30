@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+        <style>
+            body{
+                background-image: url("https://wallpapercave.com/wp/wp3091823.jpg");
+                background-repeat: no-repeat;  
+                background-size: cover;
+
+
+            }
+            .container{
+                background-color: rgba(240, 250, 255, 0.297);
+                width: 30vw;
+                height: 42vw;
+                border-radius: 20px 50px 20px 50px;
+                border: 2px solid black;
+                float: right;
+                margin-right: 12vw;
+                margin-top: 1vw;
+                box-shadow:20px 15px 30px black;
+    
+
+
+            }
+
+            .login{
+                width: 10vw;
+                height: 10vw;
+                border: 2px solid black;
+                border-radius: 50vw;
+                margin-left: 9vw;
+                margin-top: 1vw;
+
+            }
+img{
+    height: 10vw;
+    width: 10vw;
+}
+
+.loginword{
+    font-size: 5vw;
+    margin-left: 8vw;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+
+}
+input{
+    font-size: 2vw;
+    background: transparent;
+    margin-left: 2vw;
+    border-radius: 2vw;
+}
+.userid{
+    font-size: 2.1vw;
+    font-weight: bold;
+    margin-left: 2vw;
+
+}
+.password{
+    font-size: 2.1vw;
+    font-weight: bold;
+    margin-left: 2vw;
+    margin-top: 1vw;
+    
+    
+}
+.forgetten{
+    margin-left: 16vw;
+    margin-top: 0vw;
+    font-size: 1.5vw;
+    font-weight: bold;
+
+}
+.submit{
+  margin-left: 7vw;
+  padding-left: 4vw;
+    padding-right: 4vw;
+    margin-top: 2vw;
+    font-size: 2vw;
+    font-weight: bold;
+    background: transparent;
+    border-radius: 2vw;
+    
+
+}
+.downcontainer{
+    margin-top: 2vw;
+    
+}
+#submitted:hover{
+    background-color: rgb(216, 219, 222);
+}
+::placeholder{
+    color: rgba(39, 37, 37, 0.703);
+    font-size: 1.7vw;
+}
+    
+
+        </style>
+
+
+
+    <div class="container">
+        <div class="login"> <img src="https://cdn-icons-png.flaticon.com/128/6543/6543058.png"></div>
+        <div class="loginword">Login</div>
+        <div class="downcontainer">
+        <div class="userid"required="required"> UserID/Email </div>
+        <input type="text" placeholder="UserID/EmailID">
+        <div class="password"> Password</div>
+        <input type="password" placeholder="Password">
+        <div class="forgetten"><a href="#forgetten password">forget password?</a></div>
+        <button type="submit" id="submitted" class="submit">Submit</button>
+</div>
+
+    </div>
+   
+</body>
+</html>
